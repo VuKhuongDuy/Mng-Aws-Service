@@ -1,0 +1,23 @@
+// version test ok
+// {
+//   "presets": ["@babel/preset-env"],
+//   "plugins": [
+//     "@babel/plugin-proposal-class-properties",
+//     "@babel/plugin-proposal-export-default-from"
+//   ]
+// }
+
+{
+  "env": {
+    "testing": {
+      "presets": ["@babel/preset-env"],
+      "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-export-default-from"
+      ]
+    },
+    "dev": {
+      "presets": ["@vue/app"]
+    }
+  }
+}

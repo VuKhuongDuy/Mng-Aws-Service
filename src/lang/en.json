@@ -1,0 +1,125 @@
+{
+    "common": {
+        "serverError": "Server error",
+        "addSuccess": "Add account success",
+        "addFalse": "Add account failed, let check info which you input",
+        "deleteSuccess": "Delete success",
+        "getListAccountFalse": "Error, let log in",
+        "loadFailed":  "Error when load info",
+        "loginFailed": "Uesrname or password failed",
+        "confirmWrong": "Password confirm was wrong",
+        "inputEmpty": "Please fill out the information",
+        "datePlanInPast": "This time has happened, please choose a future time",
+        "makePlanSuccess": "Make plan success",
+        "createUserSuccess": "Create user success",
+        "codeWrong":"Code was wrong" ,
+        "sendEmailSuccess": "We send a code to your email, let check",
+        "startInstanceSuccess": "Starting instance",
+        "startInstanceFailed": "Starting was error",
+        "startInstanceTerminated": "Can not starting instance when it was terminated",
+        "stopInstanceSuccess": "Stopping instance",
+        "stopInstanceTerminated": "Can not stop instance when it was terminated",
+        "stopInstanceFailed": "Stoping instance was error"
+    },
+    "accounts": {
+        "titleAccTab": "List account",
+        "btnAddAcc": "Add account",
+        "nameAcc": "Name account",
+        "accessKey": "AccessKey",
+        "secretKeyId": "SecretKeyId",
+        "region": "Region",
+        "btnAdd": "Add",
+        "btnClose": "Close",
+        "instances": "Instance"
+    },
+    "dashboard": {
+        "titleAccTab": "List account",
+        "instance": "List instance",
+        "plan": "List plan"
+    },
+    "instance": {
+        "waitting": "Waitting ...",
+        "searchByKeyName": "Search key",
+        "searchByAccountName": "Search account name",
+        "instance": "List instance",
+        "addInstance": "Add instance",
+        "nameAcc": "Name account",
+        "nameInstance": "NameInstance",
+        "imageId": "ImageID",
+        "instanceType": "TypeInstance",
+        "keyName": "Key",
+        "minCount": "Min Count",
+        "maxCount": "Max Count",
+        "btnClose": "Close",
+        "btnAdd": "Thêm"
+    },
+    "login": {
+        "login": "Login",
+        "username": "Username",
+        "password": "Password",
+        "createAnAccount": "Create an account",
+        "forgot": "Forgot password"
+    },
+    "plan": {
+        "searchByAccountOrKeyName": "Search by key or account",
+        "delete": "Delete",
+        "plan": "Plan",
+        "addPlan": "Create plan",
+        "instanceId": "ID Instance",
+        "nameAcc": "Name Account",
+        "keyName": "Key",
+        "start": "Start",
+        "stop": "Stop",
+        "btnAdd": "Add",
+        "daily": "Daily",
+        "noDaily": "No daily",
+        "deletePlan": "Do you want delete this plan?",
+        "letChoosePlan": "Let choose a plan !"
+    },
+    "registry": {
+        "name": "User name",
+        "email": "Email",
+        "password": "Password",
+        "passwordConfirm": "Password confirm",
+        "code":  "Code verify",
+        "registry": "Registry"
+    },
+    "accountTable": {
+        "delete": "Delete",
+        "name": "Name",
+        "region": "Region",
+        "running/all": "Running/All",
+        "confirm": "Do you want delete this account?"
+    },
+    "instanceFullTable": {
+        "start": "Start",
+        "stop": "Stop",
+        "remove": "Delete",
+        "confirmStart": "Do you want start this instance?",
+        "confirmStop": "Do you want stop this instance?",
+        "confirmRemove": "Do you want remove this instance?",
+        "nameAcc": "Account name",
+        "nameInstance": "Instance Name",
+        "instanceId": "Instance Id",
+        "status": "Status",
+        "instanceType": "Type instance",
+        "imageId": "Image Id",
+        "keyName": "Key",
+        "launchTime": "Launch Time",
+        "region": "Region"
+    },
+    "planTable": {
+        "type": "Type",
+        "owner": "Owner",
+        "date": "Date",
+        "time": "Time(UTC)",
+        "action": "Action",
+        "daily": "Daily"
+    },
+    "dashboardLayout": {
+        "dashboard": "Dashboard",
+        "account": "Accounts",
+        "instance": "Instance",
+        "plans": "Plans"
+    }
+}

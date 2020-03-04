@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://10.0.0.115:5024/#/",
+  "video": true,
+  "videoCompression": 1,
+  "videoUploadOnPasses": true,
+  "viewportWidth": 1400,
+  "viewportHeight": 1000
+}

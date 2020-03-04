@@ -1,0 +1,125 @@
+{
+    "common": {
+        "serverError": "Máy chủ không phản hồi",
+        "addSuccess": "Thêm thành công" ,
+        "addFalse": "Thêm thất bại, kiểm tra lại thông tin bạn đã nhập",
+        "deleteSuccess": "Xóa thành công",
+        "getListAccountFalse": "Gặp lỗi, hãy thử đăng nhập lại",
+        "loadFailed": "Có lỗi khi load thông tin",
+        "loginFailed": "Tài khoản hoặc mật khẩu không chính xác",
+        "confirmWrong": "Mật khẩu xác nhận không chính xác",
+        "inputEmpty": "Hãy điền đầy đủ thông tin",
+        "datePlanInPast": "Thời điểm này đã xảy ra, hãy chọn 1 thời điểm trong tương lai",
+        "makePlanSuccess": "Tạo lịch thành công",
+        "createUserSuccess": "Tạo tài khoản thành công",
+        "codeWrong": "Code không chính xác",
+        "sendEmailSuccess": "Chúng tôi đã gửi 1 code tới email của bạn. Hãy kiểm tra.",
+        "startInstanceSuccess": "Đang khởi động instance",
+        "startInstanceFailed": "Khởi động bị lỗi",
+        "startInstanceTerminated": "Không thể khởi động instance ở trạng thái terminated",
+        "stopInstanceSuccess": "Đang dừng instance",
+        "stopInstanceTerminated": "Không thể dừng instance ở trạng thái terminated",
+        "stopInstanceFailed": "Có lỗi xảy ra khi dừng instance"
+    },
+    "accounts": {
+        "titleAccTab": "Danh sách tài khoản",
+        "btnAddAcc": "Thêm tài khoản",
+        "nameAcc": "Tên tài khoản",
+        "accessKey": "AccessKey",
+        "secretKeyId": "SecretKeyId",
+        "region": "Khu vực",
+        "btnAdd": "Thêm",
+        "btnClose": "Đóng",
+        "instances": "Instance"
+    },
+    "dashboard": {
+        "titleAccTab": "Danh sách tài khoản",
+        "instance": "Danh sách instance",
+        "plan": "Danh sách lịch"
+    },
+    "instance": {
+        "waitting": "Xin chờ",
+        "searchByKeyName": "Tìm kiếm với key",
+        "searchByAccountName": "Tìm kiếm với tên tài khoản",
+        "instance": "Danh sách instance",
+        "addInstance": "Thêm instance",
+        "nameAcc": "Tên tài khoản",
+        "nameInstance": "Tên instance",
+        "imageId": "Image ID",
+        "instanceType": "Kiểu Instance",
+        "keyName": "Key",
+        "minCount": "Min Count",
+        "maxCount": "Max Count",
+        "btnClose": "Đóng",
+        "btnAdd": "Thêm"
+    },
+    "login": {
+        "login": "Đăng nhập",
+        "username": "Tên đăng nhập",
+        "password": "Mật khẩu",
+        "createAnAccount": "Tạo 1 tài khoản",
+        "forgot": "Quên mật khẩu"
+    },
+    "plan": {
+        "searchByAccountOrKeyName": "TÌm kiếm tên tài khoản hoặc key",
+        "delete": "Xóa",
+        "plan": "Lịch",
+        "addPlan": "Tạo lịch",
+        "instanceId": "ID instance",
+        "nameAcc": "Tên tài khoản",
+        "keyName": "Key",
+        "start": "Khởi động",
+        "stop": "Dừng",
+        "btnAdd": "Thêm",
+        "daily": "Hàng ngày",
+        "noDaily": "Chỉ 1 lần",
+        "letChoosePlan": "Hãy chọn 1 lịch trình",
+        "deletePlan": "Bạn có muốn xóa lịch này không?"
+    },
+    "registry": {
+        "name": "Tên người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "passwordConfirm": "Mật khẩu xác nhận",
+        "code":  "Mã xác nhận",
+        "registry": "Đăng kí"
+    },
+    "accountTable": {
+        "delete": "Xóa",
+        "name": "Tên",
+        "region": "Khu vực",
+        "running/all": "Chạy/Tất cả",
+        "confirm": "Bạn có muốn xóa account này không"
+    },
+    "instanceFullTable": {
+        "start": "Khởi động",
+        "stop": "Dừng",
+        "remove": "Xóa",
+        "confirmStart": "Bạn có muốn khởi động instance này không",
+        "confirmStop": "Bạn có muốn dừng instance này không",
+        "confirmRemove": "Bạn có muốn xóa instance này không",
+        "nameAcc": "Tên tài khoản",
+        "nameInstance": "Tên",
+        "instanceId": "Instance Id",
+        "status": "Trạng thái",
+        "instanceType": "Kiểu instance",
+        "imageId": "Image Id",
+        "keyName": "Key",
+        "launchTime": "Launch Time",
+        "region": "Khu vực"
+    },
+    "planTable": {
+        "type": "Kiểu",
+        "owner": "Đối tượng",
+        "date": "Ngày",
+        "time": "Giờ(Quốc tế)",
+        "action": "Thực hiện",
+        "daily": "Hàng ngày"
+    },
+    "dashboardLayout": {
+        "dashboard": "Dashboard",
+        "account": "Kho tài khoản",
+        "instance": "Instance",
+        "plans": "Lịch"
+    }
+}

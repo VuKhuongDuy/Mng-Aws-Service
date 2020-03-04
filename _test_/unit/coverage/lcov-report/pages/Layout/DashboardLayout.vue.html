@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for pages/Layout/DashboardLayout.vue</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">pages/Layout</a> DashboardLayout.vue
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>3/3</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>3/3</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
+  &lt;div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }"&gt;
+    &lt;notifications&gt;&lt;/notifications&gt;
+&nbsp;
+    &lt;side-bar&gt;
+      &lt;sidebar-link to="/dashboard"&gt;
+        &lt;md-icon&gt;dashboard&lt;/md-icon&gt;
+        &lt;p class="text-white"&gt;{{ $t("dashboardLayout.dashboard") }}&lt;/p&gt;
+      &lt;/sidebar-link&gt;
+      &lt;sidebar-link to="/account"&gt;
+        &lt;md-icon&gt;person&lt;/md-icon&gt;
+        &lt;p class="text-white"&gt;{{ $t("dashboardLayout.account") }}&lt;/p&gt;
+      &lt;/sidebar-link&gt;
+      &lt;sidebar-link to="/instance"&gt;
+        &lt;md-icon&gt;computer&lt;/md-icon&gt;
+        &lt;p class="text-white"&gt;{{ $t("dashboardLayout.instance") }}&lt;/p&gt;
+      &lt;/sidebar-link&gt;
+      &lt;sidebar-link to="/plan"&gt;
+        &lt;md-icon&gt;schedule&lt;/md-icon&gt;
+        &lt;p class="text-white"&gt;{{ $t("dashboardLayout.plans") }}&lt;/p&gt;
+      &lt;/sidebar-link&gt;
+    &lt;/side-bar&gt;
+&nbsp;
+    &lt;div class="main-panel"&gt;
+      &lt;top-navbar&gt;&lt;/top-navbar&gt;
+&nbsp;
+      &lt;dashboard-content&gt;&lt;/dashboard-content&gt;
+&nbsp;
+      &lt;content-footer v-if="!$route.meta.hideFooter"&gt;&lt;/content-footer&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+&lt;style lang="scss"&gt;&lt;/style&gt;
+&lt;script&gt;
+import TopNavbar from "./TopNavbar.vue";
+import ContentFooter from "./ContentFooter.vue";
+import DashboardContent from "./Content.vue";
+&nbsp;
+export default {
+  components: {
+    TopNavbar,
+    DashboardContent,
+    ContentFooter
+  }
+};
+&lt;/script&gt;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Sep 10 2019 16:25:00 GMT+0700 (Indochina Time)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
